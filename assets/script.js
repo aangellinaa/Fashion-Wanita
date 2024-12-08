@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const aboutLink = document.querySelector('.about-link');
     aboutLink.addEventListener('click', (e) => {
-        e.preventDefault(); // Prevent default anchor behavior
+        e.preventDefault(); 
         alert('Kami Menyediakan Fashion Comelita');
     });
 });
